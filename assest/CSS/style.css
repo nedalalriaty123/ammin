@@ -127,6 +127,11 @@ nav form span {
         font-size: 15px;
     }
 }
+@media (max-width:991px) {
+    nav ul li a {
+        padding: 20px 0 !important;
+    }
+}
 
 #navbarSupportedContent {
     overflow: auto;
@@ -1042,10 +1047,12 @@ section.Offers .BoxOffers .offer .addPrice label span:nth-of-type(2) {
         flex-direction: column;
         height: 100%;
     }
-    section.Offers .BoxOffers .offer .priceOffer>.button{
+
+    section.Offers .BoxOffers .offer .priceOffer>.button {
         width: 100%;
 
     }
+
     section.Offers .BoxOffers .offer .priceOffer>.button button {
         width: 40%;
     }
@@ -1112,6 +1119,7 @@ section.Offers .BoxOffers .offer .addPrice label span:nth-of-type(2) {
     section.Offers .BoxOffers .offer .addPrice label span:nth-of-type(1) {
         font-size: 14px;
     }
+
     section.Offers .BoxOffers .offer .priceOffer>.button button {
         width: 40%;
     }
@@ -1121,10 +1129,12 @@ section.Offers .BoxOffers .offer .addPrice label span:nth-of-type(2) {
     section.Offers .BoxOffers .offer .priceOffer>.button button:nth-child(2) {
         font-size: 14px;
     }
+
     section.Offers .BoxOffers .offer .priceOffer button span {
         font-size: 16px;
     }
 }
+
 @media (max-width:479px) {
     section.Offers .BoxOffers .offer .priceOffer .price {
         width: 100%;
@@ -1221,16 +1231,18 @@ section.Offers .navOffer>.nav ul:nth-child(2).show {
         width: auto;
         flex-wrap: nowrap;
     }
+
     section.Offers .BoxOffers .offer input[type="checkbox"] {
         height: 24px;
     }
 }
 
 @media (max-width:390px) {
-section.Offers .BoxOffers .offer input[type="checkbox"] {
+    section.Offers .BoxOffers .offer input[type="checkbox"] {
         height: 17px;
     }
 }
+
 @media (max-width:527px) {
     section.Offers .navOffer .button {
         width: 100%;
@@ -1266,27 +1278,34 @@ section.Offers .BoxOffers .offer input[type="checkbox"] {
     }
 
 }
+
 @media (max-width:374px) {
+
     section.Offers .navOffer>.nav #profile .active,
     section.Offers .navOffer>.nav ul:first-child .active {
         font-size: 70%;
     }
 }
+
 @media (max-width:366px) {
+
     section.Offers .navOffer>.nav #profile .active,
     section.Offers .navOffer>.nav ul:first-child .active {
         font-size: 60%;
     }
 }
+
 @media (max-width:351px) {
     section.Offers .navOffer>.nav {
         flex-direction: column;
         align-items: center;
     }
+
     section.Offers .navOffer>.nav #profile .active,
     section.Offers .navOffer>.nav ul:first-child .active {
         font-size: 75%;
     }
+
     section.Offers .navOffer>.nav ul:first-child {
         width: 90%;
         margin: 8px auto !important;
@@ -1325,18 +1344,22 @@ section.Offers .BoxOffers .offer input[type="checkbox"] {
         width: 95%;
     }
 }
+
 @media (max-width:360px) {
     section.Offers .BoxOffers .offer .Grid>* {
         width: 92%;
     }
 }
+
 @media (max-width:320px) {
     section.Offers .BoxOffers .offer .Grid>* {
         width: 80%;
     }
+
     section.Offers .BoxOffers .offer .nameOffer h1 {
         font-size: 15px;
     }
+
     section.Offers .BoxOffers .offer .headText h1 {
         font-size: 16px;
     }
@@ -1446,6 +1469,76 @@ footer .footer-body .social {
     }
 }
 
+@media (max-width:1199px) {
+    footer .footer-body .Box {
+        grid-template-columns: repeat(auto-fill, minmax(269px, 1fr));
+    }
+}
+
+@media (max-width:991px) {
+    footer .footer-body .Box {
+        grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    }
+}
+
+@media (max-width:839px) {
+    footer .footer-body .Box {
+        grid-template-columns: auto;
+        justify-content: center;
+        gap: 0;
+    }
+
+    footer .footer-body .logo,
+    footer .footer-body .social {
+        align-items: center;
+    }
+    footer .footer-body .logo svg {
+        width: 70%;
+    }
+    .footer-body ul {
+        padding: 0;
+    }
+    .footer-body ul li {
+        text-align: center;
+    }
+    .footer-body h1 {
+        margin: 0;
+        padding: 0;
+
+    }
+}
+@media (max-width:480px) {
+    .footer-body {
+        padding: 27px 22px;
+    }
+    .footer-body .icon {
+        margin-top: 15px;
+    }
+    .footer-body ul li {
+        margin-bottom: 10px;
+    }
+    .footer-foot {
+        font-size: 80%;
+    }
+}
+@media (max-width:375px) {
+    footer .footer-body .logo svg {
+        width: 60%;
+    }
+    footer .footer-body h1{
+        font-size: medium;
+    }
+    .footer-body ul li a {
+        font-weight: 400;
+        font-size: 13px;
+    }
+    footer .footer-body .social svg{
+        height: 80%;
+    }
+    .footer-foot {
+        font-size: 70%;
+    }
+}
 /* end footer section */
 
 
